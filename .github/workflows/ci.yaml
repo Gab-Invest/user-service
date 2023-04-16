@@ -21,9 +21,3 @@ jobs:
       
       - name: run tests
         run: yarn test
-
-      - name: Report results
-        uses: marvinpinto/action-automatic-merge@latest
-        with:
-          repo-token: ${{ secrets.REPO_TOKEN }}
-          merge-method: merge
